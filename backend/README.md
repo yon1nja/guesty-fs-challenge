@@ -6,7 +6,7 @@ This service gets a list of definitions and generates from them a list of schedu
 
 ## Installation
 
-Install dependencies with npm[pip](https://www.npmjs.com/).
+Install dependencies with [npm](https://www.npmjs.com/).
 
 ```bash
 npm install
