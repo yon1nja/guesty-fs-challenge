@@ -1,0 +1,21 @@
+.jobs-grid {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="time"],
+input[type="date"] {
+    border-radius: 0px;
+    border: 0px;
+    font-size: 16px;
+    border-bottom: 2px solid #d8d8d8;
+    margin: 5px;
+    background: transparent;
+}
+.pagination {
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}

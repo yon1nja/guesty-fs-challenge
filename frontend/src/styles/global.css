@@ -1,0 +1,43 @@
+body {
+    background-color: #fcfcfc;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 450;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+
+}
+
+button {
+    transition: opacity 200ms linear;
+    background-color: #17a2b8;
+    border: 1px solid #f5f5f5;
+    min-width: 70px;
+    min-height: 30px;
+    border-radius: 5px;
+    color: #f5f5f5;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+
+.btn-disabled {
+    cursor: not-allowed;
+    background-color: gray;
+}
+.btn-disabled:hover {
+    opacity: 1;
+}

@@ -1,0 +1,20 @@
+.card {
+    border: 1px solid #b2bec3;
+    border-radius: 5px;
+    display:flex;
+    
+    line-height: 24px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.card span {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
